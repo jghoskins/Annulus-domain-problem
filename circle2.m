@@ -1,3 +1,5 @@
+%Annulus domain with inner radius 0.5 and outer radius 1, but unfortunatly named as "circle2"
+
 clearvars; close all;
 iseed = 8675309;
 rng(iseed);
