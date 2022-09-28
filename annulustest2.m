@@ -8,7 +8,7 @@ n=50;
 k=1:n;
 x_cb=4.675+0.025*cos((2*k-1)/(2*n)*pi); %Chebyshev points
 
-rhs=zeros(size(x_cb));                  %monitor function appliedd at Chebyshev points
+rhs=zeros(size(x_cb));                  %monitor function applied at Chebyshev points
 for i=1:n
     zk=x_cb(i);
     fkern = @(s,t) chnk.helm2d.kern(zk,s,t,'d');
