@@ -1,8 +1,6 @@
-smalleig=[];
+% find eigenvalues on [0,10] roughly
 values=[];
-bzero0=besselzero(1,10,1)';
-bzero1=[1.8412,5.3314,8.5363,11.7060,14.8636];
-zks = 0.01:0.2:15;
+zks = 0.01:0.2:10;
 for ii =1:numel(zks)
     zk=zks(ii);
     fkern = @(s,t) chnk.helm2d.kern(zk,s,t,'d');
