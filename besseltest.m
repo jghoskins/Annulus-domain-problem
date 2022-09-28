@@ -1,5 +1,5 @@
 function val = besseltest(m,lambda)
-% compute the absolute value of function g
+% compute eqution g
 % m is the order of Bessel function and lambda is the eigenvalue we want to test
     if m==0
         val=besselj(1,lambda).*bessely(1,0.5.*lambda)-bessely(1,lambda).*besselj(m,0.5.*lambda);
