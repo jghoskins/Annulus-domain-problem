@@ -26,3 +26,7 @@ A=A(1:50,1:50);
 a=A\rhs      %coefficients of Chebyshev polynomials                  
 sol=colleagueeigs(49,a');  %eigenvalues of colleague matrix
 sol=sol/40+4.675 %transformation
+
+
+%after we get sol, use "besseltest" function to find the eigenvalue that fits equation g best
+%besseltest(0,real(sol))
