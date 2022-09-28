@@ -39,9 +39,4 @@ axis equal
 
 
 
-% fkern = @(s,t) chnk.lap2d.kern(s,t,'D');
-% opts = [];
-% D = chunkermat(chnkr,fkern,opts);
-% sys = -0.5*eye(chnkr.npt) + D;
-% size(sys)
 
