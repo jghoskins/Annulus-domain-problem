@@ -28,5 +28,5 @@ sol=colleagueeigs(49,a');  %eigenvalues of colleague matrix
 sol=sol/40+4.675 %transformation
 
 
-%after we get sol, use "besseltest" function to find the eigenvalue that fits equation g best
+%after we get sol, use "besseltest" function to find the eigenvalue that fits equation (6) best
 %besseltest(0,real(sol))
